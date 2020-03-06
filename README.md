@@ -22,7 +22,6 @@ docker run \
     --rm \
     --name awscli \
     -v $HOME/.aws:/root/.aws \
-    -v $HOME/.kube:/root/.kube \
     koirand/awscli:latest \
     /bin/bash
 ```
